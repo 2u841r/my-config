@@ -1,4 +1,5 @@
-# added by me 
+# C:\Program Files\Git\etc\bash.bashrc
+
 alias nrd='npm run dev'
 alias nrs='npm start'
 alias nrb='npm run build'
