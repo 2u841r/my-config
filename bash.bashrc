@@ -1,5 +1,6 @@
 # C:\Program Files\Git\etc\bash.bashrc
 
+# added by me 
 alias nrd='npm run dev'
 alias nrs='npm start'
 alias nrb='npm run build'
@@ -21,22 +22,30 @@ alias prdbm='pnpm dlx drizzle-kit migrate'
 alias prdbs='pnpm dlx drizzle-kit studio'
 
 alias gi='git init'
-alias ga='git add'
-alias gaa='git add -A'
+alias gadd='git add'
+alias ga='git add -A'
 alias gap='git add -p'
 alias gc='git commit -m'
 alias gcm='git commit -m'
+alias gb='git branch'
 alias gbmm='git branch -M main'
 alias gra='git remote add '
 alias grao='git remote add origin'
 alias gp='git push'
 alias gpo='git push origin'
 alias gpoh='git push origin HEAD'
-alias gpuom='git push -u origin main'
 alias gco='git checkout'
+alias gpuom='git push -u origin main'
 alias gcb='git checkout -b'
 alias glo='git log --oneline'
 alias gst='git status'
 alias gcl='git clone'
 
 alias wd='wrangler deploy'
+
+alias pi='pnpm i' 
+alias pio='pnpm i --offline' 
+alias pr='pnpm run' 
+alias pab='pnpm approve-builds' 
+
+alias x='rm -rf' 
