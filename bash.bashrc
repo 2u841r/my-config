@@ -20,6 +20,14 @@ alias prdbg='pnpm dlx drizzle-kit generate'
 alias prdbm='pnpm dlx drizzle-kit migrate'
 alias prdbs='pnpm dlx drizzle-kit studio'
 
+alias pr='pnpm run'
+alias pd='pnpm run dev'
+alias ps='pnpm start'
+alias pb='pnpm run build'
+alias pp='pnpm run preview'
+alias pl='pnpm run lint'
+alias pf='pnpm run lint:fix'
+
 alias gi='git init'
 alias gadd='git add'
 alias ga='git add -A'
@@ -28,6 +36,8 @@ alias gc='git commit -m'
 alias gcm='git commit -m'
 alias gb='git branch'
 alias gbmm='git branch -M main'
+alias gf='git fetch'
+alias grv='git remote -v '
 alias gra='git remote add '
 alias grao='git remote add origin'
 alias gp='git push'
@@ -40,15 +50,19 @@ alias glo='git log --oneline'
 alias gst='git status'
 alias gcl='git clone'
 
+
 alias wd='wrangler deploy'
 
 alias pi='pnpm i' 
 alias pio='pnpm i --offline' 
+alias pipo='pnpm i --prefer-offline'
 alias pr='pnpm run' 
 alias pab='pnpm approve-builds' 
 
 alias x='rm -rf' 
 
+alias dcd='docker compose down'
+alias dcu='docker compose up'
 alias dcup='docker compose up -d'
 
 
@@ -62,9 +76,9 @@ eval "$(fnm env --use-on-cd --shell bash)"
 
 export PATH=$PATH:/c/Users/Zubair/.bun/bin
 export PATH=$PATH:/c/Users/Zubair/.fastly
-export PATH=$PATH:/c/Users/Zubair/.fastly/
 export PATH=$PATH:/c/Users/Zubair/.fastly.exe
 export PATH=$PATH:/c/Users/Zubair/.cargo/bin
+export PATH=$PATH:/c/mkcert
 # export NVM_DIR="/c/Users/Zubair/AppData/Local/nvm"
 # export PATH="$NVM_DIR/$(nvm version)/bin:$NVM_DIR:$PATH"
 export PATH=$PATH:/c/php
