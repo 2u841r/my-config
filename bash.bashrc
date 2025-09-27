@@ -22,6 +22,8 @@ alias prdbs='pnpm dlx drizzle-kit studio'
 
 alias pr='pnpm run'
 alias pd='pnpm run dev'
+alias pdf='pnpm run dev:frontend'
+alias pdb='pnpm run dev:backend'
 alias ps='pnpm start'
 alias pb='pnpm run build'
 alias pp='pnpm run preview'
@@ -50,6 +52,13 @@ alias glo='git log --oneline'
 alias gst='git status'
 alias gcl='git clone'
 
+gz() {
+  echo "Enter commit message: "
+  read -r msg
+  git add -A
+  git commit -m "$msg"
+  git push
+}
 
 alias wd='wrangler deploy'
 
