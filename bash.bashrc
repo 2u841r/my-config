@@ -60,6 +60,13 @@ gz() {
   git push
 }
 
+gx() {
+  echo "Enter commit message (no push) : "
+  read -r msg
+  git add -A
+  git commit -m "$msg"
+}
+
 alias wd='wrangler deploy'
 
 alias pi='pnpm i' 
@@ -68,12 +75,16 @@ alias pipo='pnpm i --prefer-offline'
 alias pr='pnpm run' 
 alias pab='pnpm approve-builds' 
 
+alias ndp='netlify deploy --prod'
+alias vp='vercel --prod'
+
 alias x='rm -rf' 
 
 alias dcd='docker compose down'
 alias dcu='docker compose up'
 alias dcup='docker compose up -d'
 
+alias gtp='npx gitpick'
 
 eval "$(fnm env --use-on-cd --shell bash)"
 
