@@ -1,0 +1,10 @@
+{
+    "window.commandCenter": true,
+    "editor.fontSize": 18,
+    "window.zoomLevel": 1,
+    "editor.wordWrap": "on",
+    "workbench.sideBar.location": "right",
+    "editor.scrollbar.vertical": "visible",
+    "workbench.colorTheme": "Bytes Newletter Colorized+",
+    "workbench.activityBar.orientation": "vertical",
+}
