@@ -1,13 +1,26 @@
+# ubuntu
+alias sau='sudo apt-get update'
+alias sn='sudo nano'
+alias ss='sudo nano ~/.bashrc'
+alias wc='warp-cli connect'
+alias wd='warp-cli disconnect'
+alias v1='vnstat -i CloudflareWARP -d'
+alias v2='vnstat -i eno1 -d'
+
+alias py1='python3 -m venv venv'
+alias py2='source venv/bin/activate'
+
+
 # added by me 
-alias nrd='npm run dev'
-alias nrs='npm start'
-alias nrb='npm run build'
-alias nrp='npm run preview'
-alias nrl='npm run lint'
-alias nrlf='npm run lint:fix'
-alias nrdbg='npx drizzle-kit generate'
-alias nrdbm='npx drizzle-kit migrate'
-alias nrdbs='npx drizzle-kit studio'
+alias nd='npm run dev'
+alias ns='npm start'
+alias nb='npm run build'
+alias np='npm run preview'
+alias nl='npm run lint'
+alias nlf='npm run lint:fix'
+alias ndbg='npx drizzle-kit generate'
+alias ndbm='npx drizzle-kit migrate'
+alias ndbs='npx drizzle-kit studio'
 
 alias pr='pnpm run'
 alias prd='pnpm run dev'
