@@ -2,16 +2,29 @@
 alias sau='sudo apt-get update'
 alias sn='sudo nano'
 alias ss='sudo nano ~/.bashrc'
+
+# IDE
+alias c='cursor .'
+alias ag='antigravity .'
+
+# warp 1.1.1.1
 alias wc='warp-cli connect'
 alias wd='warp-cli disconnect'
+
+# vnstat
 alias v1='vnstat -i CloudflareWARP -d'
 alias v2='vnstat -i eno1 -d'
 
+# python
 alias py1='python3 -m venv venv'
 alias py2='source venv/bin/activate'
 
+# docker
+alias dcd='docker compose down'
+alias dcu='docker compose up'
+alias dcup='docker compose up -d'
 
-# added by me 
+# JS frameworks 
 alias nd='npm run dev'
 alias ns='npm start'
 alias nb='npm run build'
@@ -43,6 +56,7 @@ alias pp='pnpm run preview'
 alias pl='pnpm run lint'
 alias pf='pnpm run lint:fix'
 
+# git
 alias gi='git init'
 alias gadd='git add'
 alias ga='git add -A'
@@ -92,10 +106,6 @@ alias ndp='netlify deploy --prod'
 alias vp='vercel --prod'
 
 alias x='rm -rf' 
-
-alias dcd='docker compose down'
-alias dcu='docker compose up'
-alias dcup='docker compose up -d'
 
 alias gtp='npx gitpick'
 
