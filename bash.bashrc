@@ -1,15 +1,16 @@
 # ubuntu
 alias sau='sudo apt-get update'
 alias sn='sudo nano'
-alias ss='sudo nano ~/.bashrc'
+alias zz='sudo nano ~/.bashrc'
 
 # IDE
 alias c='cursor .'
 alias ag='antigravity .'
 
 # warp 1.1.1.1
-alias wc='warp-cli connect'
-alias wd='warp-cli disconnect'
+alias 1c='warp-cli connect'
+alias 1d='warp-cli disconnect'
+alias 1s='warp-cli status'
 
 # vnstat
 alias v1='vnstat -i CloudflareWARP -d'
