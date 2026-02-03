@@ -26,6 +26,7 @@ alias dcu='docker compose up'
 alias dcup='docker compose up -d'
 
 # JS frameworks 
+alias nenv='node --env-file=.env'
 alias nd='npm run dev'
 alias ns='npm start'
 alias nb='npm run build'
